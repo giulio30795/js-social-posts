@@ -17,16 +17,16 @@ const posts = [
         data: '1 settimana fa',
         testo: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias',
         immaginePost: 'https://picsum.photos/200/100',
-        miPiace: 'mi piace',
+        miPiace: 'Mi piace',
         contatore: 30,
     },
     {
-        immagineProfilo: 'https://unsplash.it/300/100?image=15',
+        immagineProfilo: 'https://unsplash.it/300/300?image=15',
         userName: 'Stefano Rossi',
         data: 'ieri',
         testo: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias',
         immaginePost: 'https://picsum.photos/200/100',
-        miPiace: 'mi piace',
+        miPiace: 'Mi piace',
         contatore: 50,
     },
     {
@@ -35,7 +35,7 @@ const posts = [
         data: '3 giorni fa',
         testo: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias',
         immaginePost: 'https://picsum.photos/200/100',
-        miPiace: 'mi piace',
+        miPiace: 'Mi piace',
         contatore: 95,
     },
     {
@@ -44,16 +44,16 @@ const posts = [
         data: '03/02/2021',
         testo: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias',
         immaginePost: 'https://picsum.photos/200/100',
-        miPiace: 'mi piace',
+        miPiace: 'Mi piace',
         contatore: 22,
     },
     {
         immagineProfilo: 'https://unsplash.it/300/300?image=15',
-        userName: 'nome',
+        userName: 'Francesco ',
         data: 'oggi',
         testo: 'Placeat libero ipsa nobis ipsum quibusdam quas harum ut. Distinctio minima iusto. Ad ad maiores et sint voluptate recusandae architecto. Et nihil ullam aut alias',
         immaginePost: 'https://picsum.photos/200/100',
-        miPiace: 'mi piace',
+        miPiace: 'Mi piace',
         contatore: 59,
     },
 ]
@@ -68,7 +68,8 @@ for(let i = 0; i < posts.length; i++){
     divGenerator (container, post.immagineProfilo, post.userName, post.data, post.testo, post.immaginePost, post.miPiace, post.contatore)
 }
 
-// Funzioni
+
+// Funzioni//
 
 
 function divGenerator (container, immagineProfilo, userName, data, testo, immaginePost, miPiace, contatore){
